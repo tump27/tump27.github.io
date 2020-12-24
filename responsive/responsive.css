@@ -36,6 +36,7 @@
   }
 
   .message {
+    border: 2px solid rgba(0, 0, 0, 0.408);
     font-size: 17px;
     animation: hello 3.5s forwards;
   }
@@ -46,6 +47,7 @@
 
   .intro {
     margin: 20px auto 130px;
+    border: 1.5px solid rgba(0, 0, 0, 0.301);
   }
 
   #profile img {
@@ -56,8 +58,8 @@
     width: calc(100% - 45px);
     padding: 67px 0 67px;
     box-shadow: none;
-    border-top: 2px dotted rgb(163, 161, 161);
-    border-bottom: 2px dotted rgb(163, 161, 161);
+    border-top: 2px dashed rgb(163, 161, 161);
+    border-bottom: 2px dashed rgb(163, 161, 161);
     border-radius: 0;
   }
 
