@@ -45,7 +45,7 @@
   }
 
   .intro {
-    margin: 0 auto 100px;
+    margin: 20px auto 130px;
   }
 
   #profile img {
@@ -53,13 +53,16 @@
   }
 
   .name {
+    width: calc(100% - 45px);
     padding: 67px 0 67px;
     box-shadow: none;
-  
+    border-top: 2px dotted rgb(163, 161, 161);
+    border-bottom: 2px dotted rgb(163, 161, 161);
+    border-radius: 0;
   }
 
   .top {
-    margin: 40px auto 60px;
+    margin: 100px auto 60px;
     background: #9c9c9c;
   }
 
