@@ -58,8 +58,8 @@
     width: calc(100% - 45px);
     padding: 67px 0 67px;
     box-shadow: none;
-    border-top: 2px dashed rgb(163, 161, 161);
-    border-bottom: 2px dashed rgb(163, 161, 161);
+    border-top: 2px dotted rgb(163, 161, 161);
+    border-bottom: 2px dotted rgb(163, 161, 161);
     border-radius: 0;
   }
 
