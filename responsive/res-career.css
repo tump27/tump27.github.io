@@ -1,0 +1,51 @@
+@media (max-width: 670px) {
+
+  header {
+    margin-top: 100px;
+  }
+
+  .heading h1 {
+    font-size: 22px;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  .menu ul {
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .menu li {
+    margin: 0 auto;
+  }
+
+  .container {
+    box-shadow: none;
+  }
+
+  .career-box {
+    width: 100%;
+    padding: 70px 0 50px;
+  }
+
+  .date, .company {
+    font-size: 5px;
+  }
+
+  td {
+    font-size: 12px;
+    padding: 15px 5px;
+    text-align: left;
+  }
+
+  .top {
+    margin: 20px auto 60px;
+    background: #9c9c9c;
+  }
+
+  .top a {
+    color: #fff;
+  }
+}

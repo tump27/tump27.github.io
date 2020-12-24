@@ -1,0 +1,63 @@
+@media (max-width: 670px) {
+
+  header {
+    margin-top: 100px;
+  }
+
+  .heading h1 {
+    font-size: 22px;
+  }
+
+  .heading p {
+    font-size: 13px;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  .menu ul {
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .menu li {
+    margin: 0 auto;
+  }
+
+  .container {
+    box-shadow: none;
+    width: 100%;
+  }
+
+  .contact-form {
+    width: calc(100% - 45px);
+    font-size: 14px;
+  }
+
+  textarea {
+    width: calc(100% - 35px);
+    margin: 0 auto 10px;
+  }
+
+  .btn {
+    margin-bottom: 60px;
+  }
+
+  .btn-border {
+    border-bottom: 2px dashed rgb(163, 161, 161);
+  }
+
+  .top {
+    margin: 0 auto 60px;
+    background: #9c9c9c;
+  }
+
+  .top a {
+    color: #fff;
+  }
+
+  footer a {
+    font-size: 14px;
+  }
+}

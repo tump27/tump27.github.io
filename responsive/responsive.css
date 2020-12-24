@@ -1,0 +1,69 @@
+@media (max-width: 670px) {
+
+  header {
+    height: 330px;
+  }
+
+  .heading {
+    padding-top: 260px;
+    padding-left: 10px;
+    animation: whatcan 1.5s forwards;
+  }
+
+  .heading h1 {
+    font-size: 19px;
+  }
+
+  body {
+    background: #fff;
+  }
+
+  .menu ul {
+    text-align: left;
+    padding-left: 0;
+  }
+
+  .menu li {
+    margin: 0 auto;
+  }
+
+  main {
+    padding: 50px 0 0;
+  }
+
+  p {
+    font-size: 13px;
+  }
+
+  .message {
+    font-size: 17px;
+    animation: hello 3.5s forwards;
+  }
+
+  #profile h1 {
+    font-size: 19px;
+  }
+
+  .intro {
+    margin: 0 auto 100px;
+  }
+
+  #profile img {
+    margin: 30px 0 25px;
+  }
+
+  .name {
+    padding: 67px 0 67px;
+    box-shadow: none;
+  
+  }
+
+  .top {
+    margin: 40px auto 60px;
+    background: #9c9c9c;
+  }
+
+  .top a {
+    color: #fff;
+  }
+}
