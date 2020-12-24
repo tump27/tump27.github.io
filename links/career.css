@@ -106,13 +106,13 @@ td {
 
 .top {
   text-align: center;
+  margin: 90px auto 90px;
   width: 150px;
   height: 50px;
-  background: #fff;
   border: 2px solid #9c9c9c;
-  border-radius: 10px;
+  background: #fff;
+  border-radius: 45px;
   box-shadow: 0px 10px 10px -5px rgba(2, 2, 2, 0.233);
-  margin: 70px auto 80px;
   transition: background 0.3s;
 }
 
@@ -127,7 +127,7 @@ td {
 
 .top:hover {
   background: #9c9c9c;
-  border-radius: 10px;
+  border-radius: 45px;
 }
 
 .top a:hover {
