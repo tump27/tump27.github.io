@@ -57,7 +57,6 @@ li {
 .menu ul {
   display: flex;
   justify-content: center;
-  align-content: center;
 }
 
 .menu li {
@@ -127,6 +126,12 @@ p {
   letter-spacing: 2.5px;
 }
 
+.message:hover {
+  background-color: #f0f0f0;
+  background-image:
+  repeating-linear-gradient(-45deg,#fff, #fff 3px,transparent 0, transparent 6px);
+}
+
 #profile img {
   margin: 50px 0;
   border-radius: 7px;
@@ -157,11 +162,10 @@ p {
   box-shadow: 0px 10px 10px -5px rgba(2, 2, 2, 0.233);
 }
 
-
 .top {
   margin: 90px auto 0;
   width: 150px;
-  height: 50px;
+  height: 60px;
   border: 2px solid #9c9c9c;
   background: #fff;
   border-radius: 45px;
@@ -170,12 +174,16 @@ p {
 }
 
 .top a {
-  line-height: 50px;
+  line-height: 60px;
   color: rgba(0, 0, 0, 0.544);
   font-size: 20px;
   text-decoration: none;
   display: block;
   transition: color 0.3s;
+}
+
+.fas {
+  margin-right: 5px;
 }
 
 .top:hover {

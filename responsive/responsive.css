@@ -39,6 +39,9 @@
     border: 2px solid rgba(0, 0, 0, 0.408);
     font-size: 17px;
     animation: hello 3.5s forwards;
+    background-color: #f0f0f0;
+    background-image:
+    repeating-linear-gradient(-45deg,#fff, #fff 3px,transparent 0, transparent 6px);
   }
 
   #profile h1 {
@@ -47,7 +50,7 @@
 
   .intro {
     margin: 20px auto 130px;
-    border: 1.5px solid rgba(0, 0, 0, 0.301);
+    border: 1.5px solid #9c9c9c;
   }
 
   #profile img {
@@ -65,5 +68,10 @@
 
   .top {
     margin: 100px auto 60px;
+    border: 1.5px solid #9c9c9c;
+  }
+
+  .top a {
+    font-size: 18px;
   }
 }

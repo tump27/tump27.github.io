@@ -83,7 +83,6 @@ li {
 table {
   margin: 0 auto;
   text-align: center;
-  border: 1.5px solid rgba(2, 2, 2, 0.233);
   border-collapse: collapse;
 }
 
@@ -95,7 +94,10 @@ th {
   font-size: 15px;
   letter-spacing: 2px;
   color: rgba(0, 0, 0, 0.544);
-  padding: 8px 10px;
+  padding: 8px 10px; 
+  background-color: #f0f0f0;
+  background-image:
+  repeating-linear-gradient(-45deg,#fff, #fff 3px,transparent 0, transparent 6px);
 }
 
 td {
@@ -108,7 +110,7 @@ td {
   text-align: center;
   margin: 90px auto 90px;
   width: 150px;
-  height: 50px;
+  height: 60px;
   border: 2px solid #9c9c9c;
   background: #fff;
   border-radius: 45px;
@@ -117,12 +119,16 @@ td {
 }
 
 .top a {
-  line-height: 50px;
+  line-height: 60px;
   color: rgba(0, 0, 0, 0.544);
   font-size: 20px;
   text-decoration: none;
   display: block;
   transition: color 0.3s;
+}
+
+.fas {
+  margin-right: 5px;
 }
 
 .top:hover {
